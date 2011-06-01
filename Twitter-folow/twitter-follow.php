@@ -9,6 +9,8 @@
 * Author URI: http://www.wplook.com
 */
 
+
+
 add_action('widgets_init', create_function('', 'return register_widget("TwitterButton");'));
 class TwitterButton extends WP_Widget {
 	function TwitterButton() {
@@ -130,7 +132,7 @@ class TwitterButton extends WP_Widget {
 		$instance['wpllinkcolor'] = sanitize_text_field($new_instance['wpllinkcolor']);
 		$instance['wpllanguage'] = sanitize_text_field($new_instance['wpllanguage']);
 		$instance['wplwidth'] = sanitize_text_field($new_instance['wplwidth']);
-		$instance['wplalignment'] = $new_instance['wplalignment'];
+		$instance['wplalignment'] = sanitize_text_field($new_instance['wplalignment']);
 
         return $instance;
 	}
@@ -151,13 +153,12 @@ class TwitterButton extends WP_Widget {
 
         ?>
 
-		<h3><?php echo $wpltitle; ?></h3>
-		
-		
-		<a href="http://twitter.com/<?php echo $wplusername; ?>" class="twitter-follow-button" data-show-count="<?php echo $wplfollowersisplay; ?>" data-button="<?php echo $wplbuttoncolor; ?>" ata-text-color="<?php echo $wpltextcolor; ?>" data-link-color="<?php echo $wpllinkcolor; ?>" data-lang="<?php echo $wpllanguage; ?>" data-width="<?php echo $wplwidth; ?>" data-align="<?php echo $wplalignment; ?>">Follow @<?php echo $wplusername; ?></a>		
+<?php echo $before_widget; ?>
+	<?php if ( $wpltitle )
+     	echo $before_title . $wpltitle . $after_title; ?>
+		<a href="http://twitter.com/<?php echo $wplusername; ?>" class="twitter-follow-button" data-show-count="<?php echo $wplfollowersisplay; ?>" data-button="<?php echo $wplbuttoncolor; ?>" data-text-color="<?php echo $wpltextcolor; ?>" data-link-color="<?php echo $wpllinkcolor; ?>" data-lang="<?php echo $wpllanguage; ?>" data-width="<?php echo $wplwidth; ?>" data-align="<?php echo $wplalignment; ?>">Follow @<?php echo $wplusername; ?></a>		
 		<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-
-		
+		<?php echo $after_widget; ?>
 <?php
 	}
 }
