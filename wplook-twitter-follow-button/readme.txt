@@ -5,6 +5,7 @@ Tags: twitter, follow, social, tweet, twit, button, folow me, javaScript, sideba
 Requires at least: 3.0
 Tested up to: 3.2
 Stable tag: trunk
+License: GPLv2 or later
 
 Add the WPLOOK Twitter Follow Button (new) to your blog to increase engagement and create a lasting connection with your audience.
 
