@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: valeriutihai
+Contributors: valeriutihai, victortihai
 Donate link: 
 Tags: twitter, follow, social, tweet, twit, button, folow me, javaScript, sidebar, widget, twiting, twit count, twit folowers,
 Requires at least: 3.0
