@@ -156,9 +156,24 @@ class WPLOOKTwitterFollowButton extends WP_Widget {
 	<?php if ( $wpltitle )
 	 	echo $before_title . $wpltitle . $after_title; ?>
 		<a href="http://twitter.com/<?php echo $wplusername; ?>" class="twitter-follow-button" data-show-count="<?php echo $wplfollowersisplay; ?>" data-button="<?php echo $wplbuttoncolor; ?>" data-text-color="<?php echo $wpltextcolor; ?>" data-link-color="<?php echo $wpllinkcolor; ?>" data-lang="<?php echo $wpllanguage; ?>" data-width="<?php echo $wplwidth; ?>" data-align="<?php echo $wplalignment; ?>">Follow @<?php echo $wplusername; ?></a>		
-		<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
 		<?php echo $after_widget; ?>
 <?php
 	}
 }
+
+add_action('wp_head', 'wpl_twitter_follow_js');
+function wpl_twitter_follow_js() {
+	?>
+	<script language="JavaScript">
+		(function(){
+			var twitterWidgets = document.createElement('script');
+			twitterWidgets.type = 'text/javascript';
+			twitterWidgets.async = true;
+			twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+			document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+			})();
+	</script>
+
+<?php }
+
 ?>
