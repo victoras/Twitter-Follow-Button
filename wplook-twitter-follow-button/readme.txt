@@ -37,7 +37,7 @@ Follow the steps below to install the plugin.
 == Screenshots ==
 
 1. The configuration options for the front-end widget. WPLOOK Twitter Follow Button 
-2. An example of a front-end widget configuration.
+2. An example of a front-end widget view.
 3. An example of the button after pressing follow me.
 
 == Changelog ==
