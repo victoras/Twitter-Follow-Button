@@ -13,7 +13,7 @@ class WPLOOKTwitterFollowButton extends WP_Widget {
 	function WPLOOKTwitterFollowButton() {
 		$widget_ops = array('classname' => 'WPLOOKTwitterFollowButton', 'description' => __('Add the Follow Button to your blog to increase engagement and create a lasting connection with your audience.', 'wpl') );
 		$control_ops = array('width' => 200, 'height' => 400);
-		$this->WP_Widget('googlestats', __('WPLOOK Twitter Follow Button', 'wpl'), $widget_ops, $control_ops);
+		$this->WP_Widget('wpl', __('WPLOOK Twitter Follow Button', 'wpl'), $widget_ops, $control_ops);
 	}
 
 	function form($instance) {
