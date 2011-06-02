@@ -2,7 +2,7 @@
 /*
 * Plugin Name: WPLOOK Twitter Follow Button (new)
 * Plugin URI: http://www.wplook.com	
-* Description: Add the Follow Button to your blog to increase engagement and create a lasting connection with your audience.
+* Description: Add the Follow Button to your blog to increase engagement and create a lasting connection with your audience. After enabling this plugin visit <a href="widgets.php">the widgets page</a>
 * Author: The WPLOOK Team
 * Version: 1.0
 * Author URI: http://www.wplook.com
