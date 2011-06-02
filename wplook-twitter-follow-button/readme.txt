@@ -20,9 +20,9 @@ You can configure the WPLOOK Twitter Follow Button:
 *   "Button color" change the button color schemes, blue/grey;
 *   "Text color" change text color (HEX color code);
 *   "Link color" change link color (HEX color code);
-*	"Language" specify the language for the Follow Button, available in English (en), French (fr), German (de), Italian (it), Spanish (es), Korean (ko), Japanese (ja), Russian (ru) and Turkish (tr);
-*	"Width" width of the Follow Button;
-*	"Alignment"  alignment of the Follow Button, left/right;
+*   "Language" specify the language for the Follow Button, available in English (en), French (fr), German (de), Italian (it), Spanish (es), Korean (ko), Japanese (ja), Russian (ru) and Turkish (tr);
+*   "Width" width of the Follow Button;
+*   "Alignment"  alignment of the Follow Button, left/right;
 
 == Installation ==
 
