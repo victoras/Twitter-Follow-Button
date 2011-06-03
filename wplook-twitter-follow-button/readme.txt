@@ -15,14 +15,14 @@ The Twitter Follow button is a small widget which allows users to easily follow 
 
 You can configure the WPLOOK Twitter Follow Button:
 
-*   "User to follow" set a user to follow;
-*   "Followers count" hide/show the number of followers;
-*   "Button color" change the button color schemes, blue/grey;
-*   "Text color" change text color (HEX color code);
-*   "Link color" change link color (HEX color code);
-*   "Language" specify the language for the Follow Button, available in English (en), French (fr), German (de), Italian (it), Spanish (es), Korean (ko), Japanese (ja), Russian (ru) and Turkish (tr);
-*   "Width" width of the Follow Button;
-*   "Alignment"  alignment of the Follow Button, left/right;
+*   "User to follow" - set a user to follow;
+*   "Followers count" - hide/show the number of followers;
+*   "Button color" - change the button color schemes, blue/grey;
+*   "Text color" - change text color (HEX color code);
+*   "Link color" - change link color (HEX color code);
+*   "Language" - specify the language for the Follow Button, available in English, French, German, Italian, Spanish, Korean, Japanese, Russian and Turkish;
+*   "Width" - width of the Follow Button;
+*   "Alignment" - alignment of the Follow Button, left/right;
 
 == Installation ==
 
@@ -42,5 +42,5 @@ Follow the steps below to install the plugin.
 
 == Changelog ==
 
-= 0.1 =
+= 1.0 =
 * First stable release.
